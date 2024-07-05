@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css">
     <title>Encriptador de texto</title>
 </head>
 <body>
     <div class="container">
-        <div class="container__contenido">
-            <h1>Encriptador de texto</h1>
-            <div class="container_encriptar">
-                <input type="text" class="container__input" />
-            </div>
-            <div class="container__botones">
-                <button onclick="encriptarTexto();" class="container__boton">Encriptar</button>
-                <button onclick="desencriptarTexto();" class="container__boton">Desencriptar</button>
-            </div>
-            <div class="container__mostrar__texto">
-                <input type="text" class="container__input_mostrar__texto" />
-            </div>
+        <img class="logo" src="assets/Logo.png" alt="Logo alura">
+
+        <div class="container_encriptar">
+            <textarea class="container__input__texto" placeholder="Ingresa el texto aquí"></textarea>
         </div>
-        <div class="footer">
-            <footer>Desarrollador por Andy Ruiz</footer>
+    
+        <div class="container__botones">
+            <button onclick="encriptarTexto();" class="container__boton">Encriptar</button>
+            <button onclick="desencriptarTexto();" class="container__boton">Desencriptar</button>
         </div>
+        
+        <div class="container__mostrar__texto">
+            <input type="text" class="container__input_mostrar__texto" />
+        </div>
+    
     </div>
+    <div class="footer">
+        <footer>Desarrollador por Andy Ruiz</footer>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
