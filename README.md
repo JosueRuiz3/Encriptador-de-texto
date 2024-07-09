@@ -1,5 +1,5 @@
 # Encriptador de texto
-Este proyecto es una aplicación web desarrollada que permite a los usuarios encriptar y desencriptar texto utilizando un conjunto específico de reglas de transformación de letras.
+Este proyecto es una aplicación web que permite a los usuarios encriptar y desencriptar texto utilizando un conjunto específico de reglas de transformación de letras.
 Está creado utilizando **HTML**, **CSS** y **JavaScript**. La estructura del proyecto es la siguiente:
 
 - `index.html`: El archivo principal de la página web.
