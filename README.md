@@ -30,8 +30,8 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
 
 ## Funcionalidades
 
-- Encriptar textos según las llaves de encriptación definidas.
-- Desencriptar textos encriptados según las mismas llaves.
+- Encripta textos según las llaves de encriptación definidas.
+- Desencripta textos encriptados según las mismas llaves.
 - Campo de texto para insertar el texto que será encriptado o desencriptado.
 - Opción para escoger entre encriptar o desencriptar el texto.
 - Mostrar el resultado en la pantalla.
@@ -45,6 +45,8 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
 4. Selecciona la opción correspondiente (encriptar o desencriptar).
 5. Presiona el botón para ver el resultado.
 6. Utiliza el botón de copiar para copiar el texto resultante al portapapeles.
+
+O bien ingresando por este enlace: [https://josueruiz3.github.io/EncriptadorDeTexto](https://josueruiz3.github.io/Encriptador-de-texto/)
 
 ## Autor
 
