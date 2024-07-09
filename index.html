@@ -12,43 +12,51 @@
 
     <header>
         <a href="#" rel="">
-            <img src="./assets/Logo.png" alt="Logo Alura" class="logo">
+            <img src="./assets/logo.png" alt="Logo Alura" class="logo">
         </a>    
     </header>
 
-    <main>
-        <section class="encriptador">
-            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
-            <div class="encriptador-aviso">
-                <img src="./assets/aviso.svg" alt="Imagen Aviso" class="img-aviso">
-                <p class="texto-aviso">Solo letras minúsculas y sin acentos</p>
+    <main class="container">
+
+        <section class="container-encriptador">
+
+            <textarea class="container-encriptar" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="container-encriptador-aviso">
+                <img src="./assets/aviso.svg" alt="Imagen Aviso" class="container-img-aviso">
+                <p class="container-texto-aviso">Solo letras minúsculas y sin acentos</p>
             </div>
-            <div class="encriptador-contenedor">
-                <button type="submit" class="btn-encriptar">Encriptar!</button>
-                <button type="submit" class="btn-desencriptar">Desencriptar!</button>
+
+            <div class="container-encriptador-botones">
+                <button type="submit" class="container-encriptador-boton-encriptar">Encriptar!</button>
+                <button type="submit" class="container-encriptador-boton-desencriptar">Desencriptar!</button>
             </div>
+            
         </section>
 
-        <section class="tarjeta">
-        <div class="tarjeta-contenedor">
-                <img src="./assets/muneco.png" alt="Imagen Muñeco" class="img-muñeco">
-                <p class="texto-uno">Ningún mensaje fue encontrado</p>
-                <p class="texto-dos">Ingrese el texto que deseas encriptar o desencriptar</p>
-        </div>
-        <textarea type="mensaje" class="evaluar" readonly></textarea>
-        <button type="submit" class="btn-copiar">Copiar</button>
+        <section class="section-tarjeta">
+
+            <div class="container-tarjeta">
+                <img src="./assets/muneco.png" alt="Imagen Muñeco" class="container-tarjeta-img-muñeco">
+                <p class="container-tarjeta-texto-uno">Ningún mensaje fue encontrado</p>
+                <p class="container-tarjeta-texto-dos">Ingrese el texto que deseas encriptar o desencriptar</p>
+            </div>
+
+        <textarea type="mensaje" class="section-tarjeta-evaluar" readonly></textarea>
+        <button type="submit" class="section-tarjeta-boton-copiar">Copiar</button>
+
         </section>  
-        <p class="copiado-msg">Texto copiado!</p>
+
+        <p class="section-tarjeta-copiado-msg">Texto copiado!</p>
 
     </main>
 
-    <footer>
-        <p class="copyright">Desarrollado por Andy Ruiz</p>
-        <a href="https://www.linkedin.com/in/andy-josu%C3%A9-ruiz-d%C3%ADaz/" rel="">
-            <img src="./assets/linkedin.png" alt="Logo Linkedin" class="linked">
+    <footer class="footer">
+        <p class="footer-copyright">Desarrollado por Andy Ruiz</p>
+        <a class="footer-logo" href="https://www.linkedin.com/in/andy-josu%C3%A9-ruiz-d%C3%ADaz/" rel="">
+            <img src="./assets/linkedin.png" alt="Logo Linkedin" class="footer-logo-linked">
         </a>
-        <a href="https://github.com/JosueRuiz3" rel="">
-            <img src="./assets/github.png" alt="Logo Github" class="git">
+        <a class="footer-logo" href="https://github.com/JosueRuiz3" rel="">
+            <img src="./assets/github.png" alt="Logo Github" class="footer-logo-git">
         </a>
     </footer>
 

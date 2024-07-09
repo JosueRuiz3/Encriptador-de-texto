@@ -1,11 +1,11 @@
 // Selección de elementos
-const btnEncriptar = document.querySelector(".btn-encriptar");
-const txtEncriptar = document.querySelector(".encriptar");
-const aviso = document.querySelector(".texto-aviso");
-const respuesta = document.querySelector(".evaluar");
-const contenido = document.querySelector(".tarjeta-contenedor");
-const btnCopiar = document.querySelector(".btn-copiar");
-const btnDesencriptar = document.querySelector(".btn-desencriptar");
+const btnEncriptar = document.querySelector(".container-encriptador-boton-encriptar");
+const txtEncriptar = document.querySelector(".container-encriptar");
+const aviso = document.querySelector(".container-texto-aviso");
+const respuesta = document.querySelector(".section-tarjeta-evaluar");
+const contenido = document.querySelector(".container-tarjeta");
+const btnCopiar = document.querySelector(".section-tarjeta-boton-copiar");
+const btnDesencriptar = document.querySelector(".container-encriptador-boton-desencriptar");
 
 btnEncriptar.addEventListener("click", e => {
     e.preventDefault();
@@ -92,7 +92,7 @@ btnCopiar.addEventListener("click", e => {
     copiar.select();
     document.execCommand("copy");
 
-    const mensajeCopiado = document.querySelector(".copiado-msg");
+    const mensajeCopiado = document.querySelector(".section-tarjeta-copiado-msg");
     mensajeCopiado.classList.add("show");
 
     setTimeout(() => {
