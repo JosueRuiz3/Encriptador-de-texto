@@ -41,12 +41,13 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
 
 1. Clona el repositorio a tu máquina local.
 2. Abre `index.html` en tu navegador.
+Tambien puedes ingresar por este enlace: [https://josueruiz3.github.io/EncriptadorDeTexto](https://josueruiz3.github.io/Encriptador-de-texto/)
 3. Ingresa el texto que deseas encriptar o desencriptar en el campo de texto.
 4. Selecciona la opción correspondiente (encriptar o desencriptar).
 5. Presiona el botón para ver el resultado.
 6. Utiliza el botón de copiar para copiar el texto resultante al portapapeles.
 
-O bien ingresando por este enlace: [https://josueruiz3.github.io/EncriptadorDeTexto](https://josueruiz3.github.io/Encriptador-de-texto/)
+
 
 ## Autor
 
